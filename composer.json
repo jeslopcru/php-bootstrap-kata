@@ -1,0 +1,15 @@
+{
+  "name": "luisrovirosa/php-docker-boostrap",
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Katas\\": "src",
+      "Katas\\Tests\\": "tests"
+    }
+  }
+}
