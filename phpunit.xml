@@ -1,6 +1,9 @@
 <phpunit
         bootstrap="vendor/autoload.php"
         colors="true"
+        beStrictAboutTestsThatDoNotTestAnything="true"
+        beStrictAboutOutputDuringTests="true"
+        beStrictAboutChangesToGlobalState="true"
 >
     <testsuites>
         <testsuite name="All tests">
