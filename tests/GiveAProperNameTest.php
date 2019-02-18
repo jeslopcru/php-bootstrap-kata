@@ -13,4 +13,3 @@ class GiveAProperNameTest extends TestCase
         $this->assertTrue($myObject->giveMeAProperName());
     }
 }
-
